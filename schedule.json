@@ -1,0 +1,34 @@
+[
+{
+"start-time": "May 5, 2016 8:15",
+"stop-time":  "May 5, 2016 8:45",
+"content":    "# Coffee and Continental Breakfast"
+},
+{
+"start-time": "May 5, 2016 8:45",
+"stop-time":  "May 5, 2016 9:30",
+"content":    "# Welcoming Remarks and Overview of Program
+§ Sandy Pentland, Dazza Greenwood & Jonathan Askin (25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics)
+§ Ellen Suni (10 minutes 'big picture' on innovation in legal education, law tech in public policy and access to justice)
+§ Evan Absher and Tony Luppino (10 minutes on the genesis and current posture of GLTL)"
+},
+{
+"start-time": "May 5, 2016 9:30",
+"stop-time":  "May 5, 2016 11:00",
+"content":    "# GLTL Overview and Introduction to Projects 
+​
+The event will have four thematic tracks to help organize and structure activities:
+1 Legal document automation (and regulatory processes, with the emphasis on document/permit creation);
+2 Data analytics (with the emphasis on context free scenarios);
+3 Semantic systems and deep learning (and where there is strong context dependency);
+4 Smart transactions (with the emphasis on 'smart contracts').
+​
+* The introductions to projects within each track are to be very short (i.e., 3-minute introductions) – more detailed presentations will be done for substantially all of these projects in the working (project development) sessions."
+},
+{
+"start-time": "May 5, 2016 9:30",
+"stop-time":  "May 5, 2016 11:00",
+"content":    "## John Cummins (20 minutes)
+* Principles and operation of GLTL, objectives of today and tomorrow)"
+}
+]
