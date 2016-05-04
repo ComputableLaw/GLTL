@@ -1,34 +1,42 @@
-[
-{
-"start-time": "May 5, 2016 8:15",
-"stop-time":  "May 5, 2016 8:45",
-"content":    "# Coffee and Continental Breakfast"
-},
-{
-"start-time": "May 5, 2016 8:45",
-"stop-time":  "May 5, 2016 9:30",
-"content":    "# Welcoming Remarks and Overview of Program
-§ Sandy Pentland, Dazza Greenwood & Jonathan Askin (25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics)
-§ Ellen Suni (10 minutes 'big picture' on innovation in legal education, law tech in public policy and access to justice)
-§ Evan Absher and Tony Luppino (10 minutes on the genesis and current posture of GLTL)"
-},
-{
-"start-time": "May 5, 2016 9:30",
-"stop-time":  "May 5, 2016 11:00",
-"content":    "# GLTL Overview and Introduction to Projects
-​
-The event will have four thematic tracks to help organize and structure activities:
-1 Legal document automation (and regulatory processes, with the emphasis on document/permit creation);
-2 Data analytics (with the emphasis on context free scenarios);
-3 Semantic systems and deep learning (and where there is strong context dependency);
-4 Smart transactions (with the emphasis on 'smart contracts').
-​
-* The introductions to projects within each track are to be very short (i.e., 3-minute introductions) – more detailed presentations will be done for substantially all of these projects in the working (project development) sessions."
-},
-{
-"start-time": "May 5, 2016 9:30",
-"stop-time":  "May 5, 2016 11:00",
-"content":    "## John Cummins (20 minutes)
-* Principles and operation of GLTL, objectives of today and tomorrow)"
-}
-]
+[{"start-time": "May 5, 2016 8:15",
+  "stop-time":  "May 5, 2016 8:45",
+  "title":      "Coffee and Continental Breakfast"},
+ {"start-time": "May 5, 2016 8:45",
+  "stop-time":  "May 5, 2016 9:10",
+  "title":      "Welcoming Remarks and Overview of Program",
+  "speakers":   ["Sandy Pentland", "Dazza Greenwood", "Jonathan Askin"],
+  "description": "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"},
+ {"start-time": "May 5, 2016 9:10",
+  "stop-time":  "May 5, 2016 9:20",
+  "title":      "",
+  "speakers":   ["Ellen Suni"],
+  "description": "10 minutes 'big picture' on innovation in legal education, law tech in public policy and access to justice"},
+ {"start-time": "May 5, 2016 9:20",
+  "stop-time":  "May 5, 2016 9:30",
+  "title":      "",
+  "speakers":   ["Evan Absher", "Tony Luppino"],
+  "description": "10 minutes on the genesis and current posture of GLTL"},
+ {"start-time": "May 5, 2016 09:00",
+  "stop-time":  "May 5, 2016 11:30",
+  "title":      "GLTL Overview and Introduction to Projects",
+  "track":      1,
+  "speakers":   ["John Cummings"],
+  "description": "The event will have four thematic tracks to help organize and structure activities:\n1 Legal document automation (and regulatory processes, with the emphasis on document/permit creation);\n 2 Data analytics (with the emphasis on context free scenarios);\n3 Semantic systems and deep learning (and where there is strong context dependency);\n4 Smart transactions (with the emphasis on 'smart contracts').\n* The introductions to projects within each track are to be very short (i.e., 3-minute introductions) – more detailed presentations will be done for substantially all of these projects in the working (project development) sessions."},
+ {"start-time": "May 5, 2016 11:00",
+  "stop-time":  "May 5, 2016 12:30",
+  "title":      "Legal Document Automation",
+  "track":      2,
+  "speakers":   ["Tony Luppino", "Larry Farmer"],
+  "description": "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"},
+ {"start-time": "May 5, 2016 11:00",
+  "stop-time":  "May 5, 2016 12:30",
+  "title":      "Data Analytics",
+  "track":      3,
+  "speakers":   ["Sandy Pentland", "Dazza Greenwood", "Jonathan Askin"],
+  "description": "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"},
+ {"start-time": "May 5, 2016 11:00",
+  "stop-time":  "May 5, 2016 12:30",
+  "title":      "Data Analytics",
+  "track":      3,
+  "speakers":   ["Sandy Pentland", "Dazza Greenwood", "Jonathan Askin"],
+  "description": "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]
