@@ -47,3 +47,25 @@ Manifest of Files in This Directory
 
 ### GlobalLegalTechnologyLaboratory-law.MIT.edu-page.pdf
 * MIT/law special webpage created for GLTL event
+
+### All Current Videos:
+
+* LTL Conference
+https://youtu.be/tyeI_ryhP7s
+
+* LTL Project Michelle Burns
+https://youtu.be/hwEM_vEK9n0
+
+* LTL Project Marc Lauritsen
+https://youtu.be/b-5NS7RGPnE
+
+* LTL Project Oliver Goodenough
+https://youtu.be/sjGI_ikJke0
+
+* LTL Project Jonathan Tromba
+https://youtu.be/Ug301GcvFd4
+
+* LTL Project Noah Ballard
+https://youtu.be/xRE-AfJHKsY
+
+**Note:** A few additional videos are being produced now.
