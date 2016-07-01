@@ -25,29 +25,56 @@
                       {:start-time "May 5, 2016 09:00"
                        :stop-time  "May 5, 2016 11:30"
                        :title      "GLTL Overview and Introduction to Projects"
-                       :track      1,
+                       :track      1
                        :speakers   ["John Cummings"]
                        :description "The event will have four thematic tracks to help organize and structure activities:\n1 Legal document automation (and regulatory processes, with the emphasis on document/permit creation);\n 2 Data analytics (with the emphasis on context free scenarios);\n3 Semantic systems and deep learning (and where there is strong context dependency);\n4 Smart transactions (with the emphasis on 'smart contracts').\n* The introductions to projects within each track are to be very short (i.e., 3-minute introductions) – more detailed presentations will be done for substantially all of these projects in the working (project development) sessions."}
                       {:start-time "May 5, 2016 11:00"
                        :stop-time  "May 5, 2016 12:30"
                        :title      "Legal Document Automation"
-                       :track      2,
+                       :track      2
                        :speakers   ["Tony Luppino" "Larry Farmer"]
                        :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
                       {:start-time "May 5, 2016 11:00"
                        :stop-time  "May 5, 2016 12:30"
                        :title      "Data Analytics"
-                       :track      3,
+                       :track      3
                        :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
                        :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
                       {:start-time "May 5, 2016 11:00"
                        :stop-time  "May 5, 2016 12:30"
                        :title      "Data Analytics"
-                       :track      3,
+                       :track      3
                        :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
                        :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}
  :projects   {:name  "projects"
-              :title "projects"}
+              :title "projects"
+              :items [{:title "Legal Documentation Automation for Start-ups and Entrepreneurs"}
+                      {:title "Establishing an Automated, Web-based Permit Processing System"}
+                      {:title "Parcel Assessment Tool (Abandoned Properties™)"}
+                      {:title "FCC and Agency Transparency"}
+                      {:title "Establishing a Legal Health-Check Application"}
+                      {:title "Exploring New Applications for AI-based Technology in Law"}
+                      {:title "Creation and Automation of Global Standards"}
+                      {:title "Moving from Dumb to Smart Contracts"}
+                      {:title "Developing an Expressive Legal Specification Language"}
+                      {:title "Automated Credit Union for Digital Assets"}
+                      {:title "Blockcorp"}
+                      {:title "City Scope & Urban Law Visualizer"}
+                      {:title "Enigma"}
+                      {:title "Eximchain"}
+                      {:title "Extended Cognition & (Constitutional and Common Law) Privacy"}
+                      {:title "Founders Terms Sheet Generator"}
+                      {:title "GCorp - New Corporate Structures for the Digital World"}
+                      {:title "Open Notice"}
+                      {:title "Open Project Gallery: Registry + Directory Service"
+                       :body  ""}
+                      {:title "Automated Revenge Porn / Expungement / FOIL"
+                       :body  "Brooklyn Law Projects: (I) Automated Revenge Porn / Expungement / FOIL / Mugshot Takedowns and letter drafting;"}
+                      {:title "Smart Cities"
+                       :body  "UMKC Project: Smart Cities/Sensors/Privacy Laws/Citizen Perspectives"}
+                      {:title "Startup Advisor Toolkit/LLC Formation"
+                       :body  "BYU/Duke Law Project"}
+                      {:title "Vetting Regulations - Regulatory Agency Research Database for Entrepreneurs"}]}
  :photos     {:name  "photos"
               :title "photos"
               :items [{:title "People doing things in places"
