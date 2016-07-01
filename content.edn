@@ -1,7 +1,7 @@
 {;:conference {:name  "conference"
  ;             :title "conference"}
  :events     {:name  "events"
-              :title "events"
+              :title "Schedule"
               :items [{:start-time "May 5, 2016 8:15"
                        :stop-time  "May 5, 2016 8:45"
                        :title      "Coffee and Continental Breakfast"
@@ -47,7 +47,7 @@
                        :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
                        :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}
  :projects   {:name  "projects"
-              :title "projects"
+              :title "Projects"
               :items [{:title     "Startup Advisor Toolkit: Founders Term Sheet Generator"
                        :focus     "Legal Document Automation"
                        :status    "Extended Development"
@@ -165,7 +165,7 @@
                        :partners  ["Brooklyn Law"]
                        :resources []}]}
  :photos     {:name  "photos"
-              :title "photos"
+              :title "Photos"
               :items [{:title "Image Caption"
                        :thumb "IMG_0001.JPG"
                        :image "IMG_0001.JPG"}
@@ -216,18 +216,18 @@
                        :image "IMG_9835.JPG"}
                       {:title "Image Caption"
                        :thumb "IMG_9838.JPG"
-                       :image "IMG_9838.JPG"}]}
- :videos    {:name  "videos"
-             :title "Videos"
-             :items [{:title "Michelle Burns"
-                      :video "https://youtu.be/hwEM_vEK9n0"}
-                     {:title "Marc Lauritsen"
-                      :video "https://youtu.be/b-5NS7RGPnE"}
-                     {:title "Oliver Goodenough"
-                      :video "https://youtu.be/sjGI_ikJke0"}
-                     {:title "Jonathan Tromba"
-                      :video "https://youtu.be/Ug301GcvFd4"}
-                     {:title "Noah Ballard"
-                      :video "https://youtu.be/xRE-AfJHKsY"}]}
- :notes     {:name  "notes"
-             :title "Notes"}}}
+                       :image "IMG_9838.JPG"}]}}
+ ; :videos    {:name  "videos"
+ ;             :title "Videos"
+ ;             :items [{:title "Michelle Burns"
+ ;                      :video "https://youtu.be/hwEM_vEK9n0"}
+ ;                     {:title "Marc Lauritsen"
+ ;                      :video "https://youtu.be/b-5NS7RGPnE"}
+ ;                     {:title "Oliver Goodenough"
+ ;                      :video "https://youtu.be/sjGI_ikJke0"}
+ ;                     {:title "Jonathan Tromba"
+ ;                      :video "https://youtu.be/Ug301GcvFd4"}
+ ;                     {:title "Noah Ballard"
+ ;                      :video "https://youtu.be/xRE-AfJHKsY"}]}
+ ; :notes     {:name  "notes"
+ ;             :title "Notes"}}}
