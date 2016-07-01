@@ -50,39 +50,56 @@
               :title "projects"}
  :photos     {:name  "photos"
               :title "photos"
-              :items [{:caption  "People doing things in places"
-                       :filename "IMG_0001.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0005.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0012.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0024.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0032.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0037.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0048.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0050.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0072.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0080.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0082.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0089.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0093.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_9833.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_9834.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_9835.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_9838.JPG"}]}
+              :items [{:title "People doing things in places"
+                       :thumb "IMG_0001.JPG"
+                       :image "IMG_0001.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0005.JPG"
+                       :image "IMG_0005.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0012.JPG"
+                       :image "IMG_0012.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0024.JPG"
+                       :image "IMG_0024.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0032.JPG"
+                       :image "IMG_0032.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0037.JPG"
+                       :image "IMG_0037.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0048.JPG"
+                       :image "IMG_0048.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0050.JPG"
+                       :image "IMG_0050.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0072.JPG"
+                       :image "IMG_0072.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0080.JPG"
+                       :image "IMG_0080.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0082.JPG"
+                       :image "IMG_0082.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0089.JPG"
+                       :image "IMG_0089.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_0093.JPG"
+                       :image "IMG_0093.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_9833.JPG"
+                       :image "IMG_9833.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_9834.JPG"
+                       :image "IMG_9834.JPG"}
+                      {:title  "People doing things in places"
+                       :thumb "IMG_9834.JPG"
+                       :image "IMG_9835.JPG"}
+                      {:title "People doing things in places"
+                       :thumb "IMG_9838.JPG"
+                       :image "IMG_9838.JPG"}]}
  :notes     {:name  "notes"
              :title "notes"}}}
