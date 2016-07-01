@@ -1,0 +1,90 @@
+{:conference {:name  "conference"
+              :title "conference"}
+ :events     {:name  "events"
+              :title "events"
+              :items [{:start-time "May 5, 2016 8:15"
+                       :stop-time  "May 5, 2016 8:45"
+                       :title      "Coffee and Continental Breakfast"
+                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                      {:start-time "May 5, 2016 8:45"
+                       :stop-time  "May 5, 2016 9:10"
+                       :title      "Brooklyn Law School Project"
+                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                      {:start-time "May 5, 2016 9:10"
+                       :stop-time  "May 5, 2016 9:20"
+                       :title      "The big picture on innovation in legal education, law tech in public policy and access to justice"
+                       :speakers   ["Ellen Suni"]
+                       :description "10 minutes 'Big Picture' on innovation in legal education, law tech in public policy and access to justice"}
+                      {:start-time "May 5, 2016 9:20"
+                       :stop-time  "May 5, 2016 9:30"
+                       :title      "Genesis and current posture of GLTL"
+                       :speakers   ["Evan Absher" "Tony Luppino"]
+                       :description "10 minutes on the genesis and current posture of GLTL"}
+                      {:start-time "May 5, 2016 09:00"
+                       :stop-time  "May 5, 2016 11:30"
+                       :title      "GLTL Overview and Introduction to Projects"
+                       :track      1,
+                       :speakers   ["John Cummings"]
+                       :description "The event will have four thematic tracks to help organize and structure activities:\n1 Legal document automation (and regulatory processes, with the emphasis on document/permit creation);\n 2 Data analytics (with the emphasis on context free scenarios);\n3 Semantic systems and deep learning (and where there is strong context dependency);\n4 Smart transactions (with the emphasis on 'smart contracts').\n* The introductions to projects within each track are to be very short (i.e., 3-minute introductions) – more detailed presentations will be done for substantially all of these projects in the working (project development) sessions."}
+                      {:start-time "May 5, 2016 11:00"
+                       :stop-time  "May 5, 2016 12:30"
+                       :title      "Legal Document Automation"
+                       :track      2,
+                       :speakers   ["Tony Luppino" "Larry Farmer"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                      {:start-time "May 5, 2016 11:00"
+                       :stop-time  "May 5, 2016 12:30"
+                       :title      "Data Analytics"
+                       :track      3,
+                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                      {:start-time "May 5, 2016 11:00"
+                       :stop-time  "May 5, 2016 12:30"
+                       :title      "Data Analytics"
+                       :track      3,
+                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}
+ :projects   {:name  "projects"
+              :title "projects"}
+ :media      {:name  "media"
+              :title "media"
+              :items [{:caption  "People doing things in places"
+                       :filename "IMG_0001.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0005.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0012.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0024.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0032.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0037.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0048.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0050.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0072.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0077.MOV"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0080.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0082.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0089.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_0093.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_9833.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_9834.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_9835.JPG"}
+                      {:caption  "People doing things in places"
+                       :filename "IMG_9838.JPG"}]}
+ :notes     {:name  "notes"
+             :title "notes"}}}
