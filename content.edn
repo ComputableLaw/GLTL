@@ -48,8 +48,8 @@
                        :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}
  :projects   {:name  "projects"
               :title "projects"}
- :media      {:name  "media"
-              :title "media"
+ :photos     {:name  "photos"
+              :title "photos"
               :items [{:caption  "People doing things in places"
                        :filename "IMG_0001.JPG"}
                       {:caption  "People doing things in places"
@@ -68,8 +68,6 @@
                        :filename "IMG_0050.JPG"}
                       {:caption  "People doing things in places"
                        :filename "IMG_0072.JPG"}
-                      {:caption  "People doing things in places"
-                       :filename "IMG_0077.MOV"}
                       {:caption  "People doing things in places"
                        :filename "IMG_0080.JPG"}
                       {:caption  "People doing things in places"
