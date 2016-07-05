@@ -1,53 +1,9 @@
-{;:conference {:name  "conference"
- ;             :title "conference"}
- :events     {:name  "events"
-              :title "Schedule"
-              :items [{:start-time "May 5, 2016 8:15"
-                       :stop-time  "May 5, 2016 8:45"
-                       :title      "Coffee and Continental Breakfast"
-                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
-                      {:start-time "May 5, 2016 8:45"
-                       :stop-time  "May 5, 2016 9:10"
-                       :title      "Brooklyn Law School Project"
-                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
-                      {:start-time "May 5, 2016 9:10"
-                       :stop-time  "May 5, 2016 9:20"
-                       :title      "The big picture on innovation in legal education, law tech in public policy and access to justice"
-                       :speakers   ["Ellen Suni"]
-                       :description "10 minutes 'Big Picture' on innovation in legal education, law tech in public policy and access to justice"}
-                      {:start-time "May 5, 2016 9:20"
-                       :stop-time  "May 5, 2016 9:30"
-                       :title      "Genesis and current posture of GLTL"
-                       :speakers   ["Evan Absher" "Tony Luppino"]
-                       :description "10 minutes on the genesis and current posture of GLTL"}
-                      {:start-time "May 5, 2016 09:00"
-                       :stop-time  "May 5, 2016 11:30"
-                       :title      "GLTL Overview and Introduction to Projects"
-                       :track      1
-                       :speakers   ["John Cummings"]
-                       :description "The event will have four thematic tracks to help organize and structure activities:\n1 Legal document automation (and regulatory processes, with the emphasis on document/permit creation);\n 2 Data analytics (with the emphasis on context free scenarios);\n3 Semantic systems and deep learning (and where there is strong context dependency);\n4 Smart transactions (with the emphasis on 'smart contracts').\n* The introductions to projects within each track are to be very short (i.e., 3-minute introductions) – more detailed presentations will be done for substantially all of these projects in the working (project development) sessions."}
-                      {:start-time "May 5, 2016 11:00"
-                       :stop-time  "May 5, 2016 12:30"
-                       :title      "Legal Document Automation"
-                       :track      2
-                       :speakers   ["Tony Luppino" "Larry Farmer"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
-                      {:start-time "May 5, 2016 11:00"
-                       :stop-time  "May 5, 2016 12:30"
-                       :title      "Data Analytics"
-                       :track      3
-                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
-                      {:start-time "May 5, 2016 11:00"
-                       :stop-time  "May 5, 2016 12:30"
-                       :title      "Data Analytics"
-                       :track      3
-                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}
- :projects   {:name  "projects"
+;; todo: associate marc lauritsen video with project https://youtu.be/b-5NS7RGPnE
+;; todo: make sense of notes
+
+{:views     [{:name  "projects"
               :title "Projects"
+              :view  :projects
               :items [{:title     "Startup Advisor Toolkit: Founders Term Sheet Generator"
                        :focus     "Legal Document Automation"
                        :status    "Extended Development"
@@ -55,7 +11,8 @@
                        :partners  ["Tony Luppino, UMKC, Academic Lead"  "Michael Mills, Neota Logic, Technology Partner" "Faculty & Students, Missouri Western State University, UX Testing"]
                        :goals     "Obtain feedback on current prototypes on the principal project components, suggestions on the integration of those component, and ideas on using the Start-Up Advisor Tool Kit to not only assist with the efficient delivery of start-up legal services"
                        :outcomes  nil
-                       :resources []}
+                       :resources []
+                       :videos    ["https://youtu.be/xRE-AfJHKsY"]}
                       {:title     "Startup Advisor Toolkit: LLC Formation"
                        :focus     "Legal Document Automation"
                        :status    "Prototyping"
@@ -63,7 +20,8 @@
                        :partners  ["Jeff Ward, Duke, Academic Lead" "Larry Farmer, BYU (Retired), Academic Lead" "Michael Mills, Neota Logic, Technology Partner" "Faculty & Students, Missouri Western State University, UX Testing"]
                        :goals     "Obtain feedback on current prototypes on the principal project components, suggestions on the integration of those component, and ideas on using the Start-Up Advisor Tool Kit to not only assist with the efficient delivery of start-up legal services"
                        :outcomes  nil
-                       :resources []}
+                       :resources []
+                       :videos    []}
                       {:title     "Establishing an Automated, Web-based Permit Processing System"
                        :focus     "Legal document automation"
                        :status    "Prototyping"
@@ -71,7 +29,8 @@
                        :partners  ["Chris Kopecky, Academic Lead" "Tony Luppino, UMKC, Academic Lead" "Michael Robak, UMKC, Academic Lead" "Code for KC (Code for America Brigade)" "Kansas City, MO Government"]
                        :goals     nil
                        :outcomes  nil
-                       :resources []}
+                       :resources []
+                       :videos    ["https://youtu.be/Ug301GcvFd4"]}
                       {:title     "Parcel Assessment Tool for Abandoned Properties"
                        :focus     "Data Analytics & Decision Policy support"
                        :status    "Prototyping"
@@ -79,7 +38,8 @@
                        :partners  ["Michael Robak, Academic Lead" "James DeLisle, UMKC School of Law & Bloch School of Management, Academic Lead" "Open Counter, Possible Technology Partner" "Faculty, UMKC, Strategic Partner" "Faculty & Students, Missouri Western State University, UX Testing" "Kansas City, MO Government"]
                        :goals     nil
                        :outcomes  nil
-                       :resources []}
+                       :resources []
+                       :videos    ["https://youtu.be/hwEM_vEK9n0"]}
                       {:title     "FCC and Agency Transparency"
                        :focus     "Data Analytics & Decision Policy support"
                        :status    "Development"
@@ -87,7 +47,8 @@
                        :partners  ["Adam Candeub, MSU, Academic Lead" "MSU & QML, Project Team" "Relativity Platform, Technology Partner"]
                        :goals     "Present the project – progress to date and objectives going forward; build involvement from other institutions, QMUL in London and maybe also Dan Katz."
                        :outcomes  nil
-                       :resources []}
+                       :resources []
+                       :videos    []}
                       {:title     "Establishing a Legal Health-Check Application"
                        :focus     "Legal Document Automation & Data Analytics & Decision Policy support"
                        :status    "Ideation"
@@ -95,7 +56,8 @@
                        :partners ["Gabriel Teninbaum, Suffolk, Academic Lead" "Suffolk University"]
                        :goals     nil
                        :outcomes  nil
-                       :resources []}
+                       :resources []
+                       :videos    []}
                       {:title     "Exploring New Applications for AI-based Technology in Law"
                        :focus     "Semantic systems"
                        :status    "Ideation"
@@ -103,7 +65,8 @@
                        :partners  ["John Cummins, QMUL, Academic Lead," "Prof Ian Walden, QMUL, Academic Lead" "Peter Wallqqvist, CEO, RAVN, Technology Partner" "Students & Faculty, QMUL, Project Team" "Students & Faculty, University of Amsterdam, Project Team"]
                        :goals     nil
                        :outcomes  nil
-                       :resources ["http://www.ravn.co.uk"]}
+                       :resources ["http://www.ravn.co.uk"]
+                       :videos    []}
                       {:title     "Creation and Automation of Global Standards"
                        :focus     "Semantic Systems"
                        :status    "Ideation"
@@ -111,7 +74,8 @@
                        :partners  ["Prof. Jonathan Askin, Brooklyn Law School, Academic Lead" "Peter Wallqvist, CEO, RAVN, Technology Partner" "University of Amsterdam"]
                        :goals     "Refine the proposed project definition; build collaborations with other technology partners that may help to enrich the project."
                        :outcomes  nil
-                       :resources []}
+                       :resources []
+                       :videos    []}
                       {:title     "Moving from Dumb to Smart Contracts"
                        :focus     "Smart Contracts"
                        :status    "Ideation"
@@ -119,7 +83,8 @@
                        :partners  ["Prof Oliver Goodenough, Vermont Law School, Academic Lead" "Prof. Ian Walden, QMUL, Academic Lead" "Chris Odon & Cliff Baltzley, Stashcrypto, Technology Partner" "Selacchi Law Firm, Possible Technology Partner"]
                        :goals     "Refine the proposed project definition and identify some strong candidates for potential application areas; recruit US-based university partners; build collaborations with other technology partners."
                        :outcomes  nil
-                       :resources []}
+                       :resources []
+                       :videos    []}
                       {:title     "Developing an Expressive Legal Specification Language"
                        :focus     "Smart Contracts"
                        :status    "Ideation"
@@ -127,7 +92,8 @@
                        :partners  ["Prof Oliver Goodenough, Vermont Law School, Academic Lead"]
                        :goals     "Refine the proposed project definition; build collaborations with other technology partners that may help to enrich the project."
                        :outcomes  nil
-                       :resources []}
+                       :resources []
+                       :videos    ["https://youtu.be/sjGI_ikJke0"]}
                     #_{:title     "Automated Credit Union for Digital Assets"
                        :partners  ["MIT"]
                        :resources ["http://law.mit.edu/automated-credit-union"]}
@@ -139,7 +105,8 @@
                        :resources []}
                     #_{:title     "Enigma"
                        :partners  []
-                       :resources []}
+                       :resources []
+                       :videos    ["https://youtu.be/0W4Q7ey1E84"]}
                     #_{:title     "Eximchain"
                        :partners  ["Harvard Innovation Lab"]
                        :resources ["http://eximchain.com/" "https://i-lab.harvard.edu/meet/venture-team/eximchain/"]}
@@ -164,8 +131,9 @@
                     #_{:title     "Vetting Regulations - Regulatory Agency Research Database for Entrepreneurs"
                        :partners  ["Brooklyn Law"]
                        :resources []}]}
- :photos     {:name  "photos"
+             {:name  "photos"
               :title "Photos"
+              :view  :photos
               :items [{:title "Image Caption"
                        :thumb "IMG_0001.JPG"
                        :image "IMG_0001.JPG"}
@@ -216,18 +184,51 @@
                        :image "IMG_9835.JPG"}
                       {:title "Image Caption"
                        :thumb "IMG_9838.JPG"
-                       :image "IMG_9838.JPG"}]}}
- ; :videos    {:name  "videos"
- ;             :title "Videos"
- ;             :items [{:title "Michelle Burns"
- ;                      :video "https://youtu.be/hwEM_vEK9n0"}
- ;                     {:title "Marc Lauritsen"
- ;                      :video "https://youtu.be/b-5NS7RGPnE"}
- ;                     {:title "Oliver Goodenough"
- ;                      :video "https://youtu.be/sjGI_ikJke0"}
- ;                     {:title "Jonathan Tromba"
- ;                      :video "https://youtu.be/Ug301GcvFd4"}
- ;                     {:title "Noah Ballard"
- ;                      :video "https://youtu.be/xRE-AfJHKsY"}]}
- ; :notes     {:name  "notes"
- ;             :title "Notes"}}}
+                       :image "IMG_9838.JPG"}]}
+             {:name  "events"
+              :title "Schedule"
+              :view  :events
+              :items [{:start-time "May 5, 2016 8:15"
+                       :stop-time  "May 5, 2016 8:45"
+                       :title      "Coffee and Continental Breakfast"
+                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                      {:start-time "May 5, 2016 8:45"
+                       :stop-time  "May 5, 2016 9:10"
+                       :title      "Brooklyn Law School Project"
+                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                      {:start-time "May 5, 2016 9:10"
+                       :stop-time  "May 5, 2016 9:20"
+                       :title      "The big picture on innovation in legal education, law tech in public policy and access to justice"
+                       :speakers   ["Ellen Suni"]
+                       :description "10 minutes 'Big Picture' on innovation in legal education, law tech in public policy and access to justice"}
+                      {:start-time "May 5, 2016 9:20"
+                       :stop-time  "May 5, 2016 9:30"
+                       :title      "Genesis and current posture of GLTL"
+                       :speakers   ["Evan Absher" "Tony Luppino"]
+                       :description "10 minutes on the genesis and current posture of GLTL"}
+                      {:start-time "May 5, 2016 09:00"
+                       :stop-time  "May 5, 2016 11:30"
+                       :title      "GLTL Overview and Introduction to Projects"
+                       :track      1
+                       :speakers   ["John Cummings"]
+                       :description "The event will have four thematic tracks to help organize and structure activities:\n1 Legal document automation (and regulatory processes, with the emphasis on document/permit creation);\n 2 Data analytics (with the emphasis on context free scenarios);\n3 Semantic systems and deep learning (and where there is strong context dependency);\n4 Smart transactions (with the emphasis on 'smart contracts').\n* The introductions to projects within each track are to be very short (i.e., 3-minute introductions) – more detailed presentations will be done for substantially all of these projects in the working (project development) sessions."}
+                      {:start-time "May 5, 2016 11:00"
+                       :stop-time  "May 5, 2016 12:30"
+                       :title      "Legal Document Automation"
+                       :track      2
+                       :speakers   ["Tony Luppino" "Larry Farmer"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                      {:start-time "May 5, 2016 11:00"
+                       :stop-time  "May 5, 2016 12:30"
+                       :title      "Data Analytics"
+                       :track      3
+                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                      {:start-time "May 5, 2016 11:00"
+                       :stop-time  "May 5, 2016 12:30"
+                       :title      "Data Analytics"
+                       :track      3
+                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}]}
