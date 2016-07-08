@@ -94,7 +94,7 @@
                        :outcomes  nil
                        :resources []
                        :videos    ["https://youtu.be/sjGI_ikJke0"]}
-                    #_{:title     "Automated Credit Union for Digital Assets"
+                      {:title     "Automated Credit Union for Digital Assets"
                        :partners  ["MIT"]
                        :resources ["http://law.mit.edu/automated-credit-union"]}
                     #_{:title     "Blockcorp"
