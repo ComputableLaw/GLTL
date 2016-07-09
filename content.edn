@@ -1,7 +1,13 @@
+;; todo: fix upside down images and crop thumbnails
+;; todo: update schedule data
+;; todo: add sparsely populated projects
 ;; todo: associate marc lauritsen video with project https://youtu.be/b-5NS7RGPnE
 ;; todo: make sense of notes
-
-{:views     [{:name  "projects"
+{:views     [{:name  "conference"
+              :title "Conference"
+              :view  :conference
+              :body  "Put text here."}
+             {:name  "projects"
               :title "Projects"
               :view  :projects
               :items [{:title     "Startup Advisor Toolkit: Founders Term Sheet Generator"
