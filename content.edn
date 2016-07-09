@@ -3,9 +3,11 @@
 ;; todo: add sparsely populated projects
 ;; todo: associate marc lauritsen video with project https://youtu.be/b-5NS7RGPnE
 ;; todo: make sense of notes
+;; Use basic view for html text only
+
 {:views     [{:name  "conference"
               :title "Conference"
-              :view  :basic
+              :view  :basic  ;; this view is for html text only.
               :body  "On May 5+6, 2016, MIT was proud to host the Global Legal Technology Laboratory (GLTL) for a day and half of knowledge sharing and creative ideation. \n  \n  
               
               EVENT INFO \n  \n  
