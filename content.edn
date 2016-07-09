@@ -5,7 +5,7 @@
 ;; todo: make sense of notes
 ;; Use basic view for html text only
 
-{:views     {:name  "organizers"
+{:views    [{:name  "organizers"
               :title "Organizers"
               :view  :basic  ;; this view is for html text only.
               :body  "<h3> MIT Media Lab </h3>
@@ -14,9 +14,7 @@
               Blurb
               "<h3>Queens Mary </h3>
               Blurb"}
- 
- 
-              [{:name  "conference"
+             {:name  "conference"
               :title "Conference"
               :view  :basic  ;; this view is for html text only.
               :body  "On May 5+6, 2016, MIT was proud to host the Global Legal Technology Laboratory (GLTL) for a day and half of knowledge sharing and creative ideation. \n  \n  
