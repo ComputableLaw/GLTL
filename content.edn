@@ -5,7 +5,7 @@
 ;; todo: make sense of notes
 {:views     [{:name  "conference"
               :title "Conference"
-              :view  :conference
+              :view  :basic
               :body  "On May 5+6, 2016, MIT was proud to host the Global Legal Technology Laboratory (GLTL) for a day and half of knowledge sharing and creative ideation. \n  \n  
               
               EVENT INFO \n  \n  
