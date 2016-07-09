@@ -6,7 +6,11 @@
 {:views     [{:name  "conference"
               :title "Conference"
               :view  :conference
-              :body  "Put text here."}
+              :body  "On May 5+6, 2016, MIT was proud to host the Global Legal Technology Laboratory (GLTL) for a day and half of knowledge sharing and creative ideation. \n  \n  
+              
+              EVENT INFO \n  \n  
+              
+            This event is intended to demonstrate the multi-faceted potential of and provide momentum for the growth of the Global Legal Technology Laboratory (GLTL), which has been initiated by the UMKC School of Law, Queen Mary University-London, Brooklyn Law School, and MIT/law as a collaboration of faculty and students at law schools, other academic institutions, and industry collaborators to facilitate the development, building, refining, vetting, testing and improvement of  prototype technologies at intersections of law, public policy, and innovation, and generate data and data analytics processes to inform research on barriers to and facilitators of innovation and entrepreneurship."}
              {:name  "projects"
               :title "Projects"
               :view  :projects
