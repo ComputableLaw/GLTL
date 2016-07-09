@@ -13,6 +13,18 @@
               EVENT INFO \n  \n  
               
             This event is intended to demonstrate the multi-faceted potential of and provide momentum for the growth of the Global Legal Technology Laboratory (GLTL), which has been initiated by the UMKC School of Law, Queen Mary University-London, Brooklyn Law School, and MIT/law as a collaboration of faculty and students at law schools, other academic institutions, and industry collaborators to facilitate the development, building, refining, vetting, testing and improvement of  prototype technologies at intersections of law, public policy, and innovation, and generate data and data analytics processes to inform research on barriers to and facilitators of innovation and entrepreneurship."}
+          
+          {:name  "organizers"
+              :title "Organizers"
+              :view  :basic  ;; this view is for html text only.
+              :body  "<h3> MIT Media Lab </h3>
+              Blurb
+              "<h3> UMKC Law </h3>
+              Blurb
+              "<h3>Queens Mary </h3>
+              Blurb
+              "}
+             
              {:name  "projects"
               :title "Projects"
               :view  :projects
