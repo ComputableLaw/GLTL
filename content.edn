@@ -11,12 +11,7 @@
             :view    :basic
             :name    "organizers"
             :title   "Organizers"
-            :content "<h3>MIT Media Lab</h3>
-                      Blurb
-                      <h3>UMKC Law</h3>
-                      Blurb
-                      <h3>Queens Mary</h3>
-                      Blurb"}
+            :content "* MIT Media Lab Blurb * UMKC Law Blurb * Queens Mary Blurb"}
            {:ident   :content
             :view    :basic
             :name    "event"
