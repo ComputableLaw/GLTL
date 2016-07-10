@@ -162,7 +162,7 @@
                        :image "/resources/image-2.jpg"}
                       {:title "Image Caption"
                        :thumb "/resources/thumb-3.jpg"
-                       :image "/resources/image-3.JPG"}
+                       :image "/resources/image-3.jpg"}
                       {:title "Image Caption"
                        :thumb "/resources/thumb-4.jpg"
                        :image "/resources/image-4.jpg"}
@@ -173,11 +173,11 @@
                        :thumb "/resources/thumb-6.jpg"
                        :image "/resources/image-6.jpg"}
                       {:title "Image Caption"
-                       :thumb "/resource/thumb-7.jpg"
+                       :thumb "/resources/thumb-7.jpg"
                        :image "/resources/image-7.jpg"}
                       {:title "Image Caption"
-                       :thumb "/resources/image-thumb-8.JPG"
-                       :image "/resources/image-8.JPG"}
+                       :thumb "/resources/thumb-8.jpg"
+                       :image "/resources/image-8.jpg"}
                       {:title "Image Caption"
                        :thumb "/resources/thumb-9.jpg"
                        :image "/resources/image-9.jpg"}
@@ -194,7 +194,7 @@
                        :thumb "/resources/thumb-13.jpg"
                        :image "/resources/image-13.jpg"}
                       {:title "Image Caption"
-                       :thumb "/resource/thumb-14.jpg"
+                       :thumb "/resources/thumb-14.jpg"
                        :image "/resources/image-14.jpg"}
                       {:title "Image Caption"
                        :thumb "/resources/thumb-15.jpg"
