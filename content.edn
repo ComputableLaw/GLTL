@@ -17,6 +17,9 @@
                        :name    "Projects"
                        :title   "Projects"
                        :content nil
+                       :states  {:photo {:view  :project
+                                         :name  "Project"
+                                         :title "Project"}}
                        :data    [{:title     "Startup Advisor Toolkit: Founders Term Sheet Generator"
                                  :focus     "Legal Document Automation"
                                  :status    "Extended Development"
@@ -148,6 +151,9 @@
                    :menu    2
                    :name    "Photos"
                    :title   "Photos"
+                   :states  {:photo {:view  :photo
+                                     :name  "photo"
+                                     :title "Photo"}}
                    :data    [{:title "Image Caption"
                               :thumb "/resources/thumb-1.jpg"
                               :image "/resources/image-1.jpg"}
@@ -201,10 +207,7 @@
                               :image "/resources/image-17.jpg"}
                              {:title "Image Caption"
                               :thumb "/resources/thumb-18.jpg"
-                              :image "/resources/image-18.jpg"}]
-                   :states   {:photo {:view  :photo
-                                      :name  "photo"
-                                      :title "Photo"}}}
+                              :image "/resources/image-18.jpg"}]}
           :schedule {:view    :events
                      :menu    3
                      :name    "Schedule"
