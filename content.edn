@@ -149,69 +149,14 @@
                    #_{:title     "Vetting Regulations - Regulatory Agency Research Database for Entrepreneurs"
                       :partners  ["Brooklyn Law"]
                       :resources []}]}
-           {:ident   :photo
-            :view    :photo
-            :name    "photo"
-            :title   "Photo"
-            :content nil
-            :data    [{:title "Image Caption"
-                       :thumb "/resources/thumb-1.jpg"
-                       :image "/resources/image-1.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-2.jpg"
-                       :image "/resources/image-2.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-3.jpg"
-                       :image "/resources/image-3.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-4.jpg"
-                       :image "/resources/image-4.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-5.jpg"
-                       :image "/resources/image-5.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-6.jpg"
-                       :image "/resources/image-6.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-7.jpg"
-                       :image "/resources/image-7.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-8.jpg"
-                       :image "/resources/image-8.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-9.jpg"
-                       :image "/resources/image-9.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-10.jpg"
-                       :image "/resources/image-10.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-11.jpg"
-                       :image "/resources/image-11.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-12.jpg"
-                       :image "/resources/image-12.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-13.jpg"
-                       :image "/resources/image-13.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-14.jpg"
-                       :image "/resources/image-14.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-15.jpg"
-                       :image "/resources/image-15.jpg"}
-                      {:title  "Image Caption"
-                       :thumb "/resources/thumb-16.jpg"
-                       :image "/resources/image-16.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-17.jpg"
-                       :image "/resources/image-17.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-18.jpg"
-                       :image "/resources/image-18.jpg"}]}
            {:ident   :photos
             :view    :photos
             :name    "photos"
             :title   "Photos"
+            :states [{:ident :photo
+                      :view  :photo
+                      :name  "photo"
+                      :title "Photo"}]
             :content nil
             :data    [{:title "Image Caption"
                        :thumb "/resources/thumb-1.jpg"
