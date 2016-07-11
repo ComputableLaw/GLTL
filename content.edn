@@ -5,18 +5,22 @@
 ;; todo: make sense of notes
 ;; Use basic view for html text only
 
-{:name   "LTL"
- :title  "Legal Technology Laboratory"
- :states {:organizers {:view    :basic
+{:name   "MIT LTL"
+ :title  "MIT Legal Technology Laboratory Conference"
+ :states {:conference {:view    :basic
+                       :index   0
+                       :name    "Conference"
+                       :title   "Conference"
+                       :content "/content/conference.md"}
+          :organizers {:view    :basic
+                       :index   1
                        :name    "Organizers"
                        :title   "Organizers"
-                       :menu    0
-                       :content "organizers.md"}
+                       :content "/content/organizers.md"}
           :projects   {:view    :projects
-                       :menu    1
+                       :index   2
                        :name    "Projects"
                        :title   "Projects"
-                       :content nil
                        :states  {:project {:view  :project
                                            :name  "Project"
                                            :title "Project"}}
@@ -148,7 +152,7 @@
                                   :partners  ["Brooklyn Law"]
                                   :resources []}]}
           :photos {:view    :photos
-                   :menu    2
+                   :index   3
                    :name    "Photos"
                    :title   "Photos"
                    :states  {:photo {:view  :photo
@@ -209,7 +213,7 @@
                               :thumb "/resources/thumb-18.jpg"
                               :image "/resources/image-18.jpg"}]}
           :schedule {:view    :events
-                     :menu    3
+                     :index   4
                      :name    "Schedule"
                      :title   "Schedule"
                      :content nil
