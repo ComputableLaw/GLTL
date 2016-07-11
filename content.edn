@@ -32,7 +32,7 @@
                                   :goals     "Obtain feedback on current prototypes on the principal project components, suggestions on the integration of those component, and ideas on using the Start-Up Advisor Tool Kit to not only assist with the efficient delivery of start-up legal services"
                                   :outcomes  nil
                                   :resources []
-                                  :videos    ["https://youtu.be/xRE-AfJHKsY"]}
+                                  :videos    ["https://www.youtube.com/embed/xRE-AfJHKsY"]}
                                  {:title     "Startup Advisor Toolkit: LLC Formation"
                                   :focus     "Legal Document Automation"
                                   :status    "Prototyping"
@@ -50,7 +50,7 @@
                                   :goals     nil
                                   :outcomes  nil
                                   :resources []
-                                  :videos    ["https://youtu.be/Ug301GcvFd4"]}
+                                  :videos    ["https://www.youtube.com/embed/Ug301GcvFd4"]}
                                  {:title     "Parcel Assessment Tool for Abandoned Properties"
                                   :focus     "Data Analytics & Decision Policy support"
                                   :status    "Prototyping"
@@ -59,7 +59,7 @@
                                   :goals     nil
                                   :outcomes  nil
                                   :resources []
-                                  :videos    ["https://youtu.be/hwEM_vEK9n0"]}
+                                  :videos    ["https://www.youtube.com/embed/hwEM_vEK9n0"]}
                                  {:title     "FCC and Agency Transparency"
                                   :focus     "Data Analytics & Decision Policy support"
                                   :status    "Development"
@@ -113,7 +113,7 @@
                                   :goals     "Refine the proposed project definition; build collaborations with other technology partners that may help to enrich the project."
                                   :outcomes  nil
                                   :resources []
-                                  :videos    ["https://youtu.be/sjGI_ikJke0"]}
+                                  :videos    ["https://www.youtube.com/embed/sjGI_ikJke0"]}
                                  {:title     "Automated Credit Union for Digital Assets"
                                   :partners  ["MIT"]
                                   :resources ["http://law.mit.edu/automated-credit-union"]}
@@ -126,7 +126,7 @@
                                #_{:title     "Enigma"
                                   :partners  []
                                   :resources []
-                                  :videos    ["https://youtu.be/0W4Q7ey1E84"]}
+                                  :videos    ["https://www.youtube.com/embed/0W4Q7ey1E84"]}
                                #_{:title     "Eximchain"
                                   :partners  ["Harvard Innovation Lab"]
                                   :resources ["http://eximchain.com/" "https://i-lab.harvard.edu/meet/venture-team/eximchain/"]}
