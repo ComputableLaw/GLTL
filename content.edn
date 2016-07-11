@@ -5,259 +5,252 @@
 ;; todo: make sense of notes
 ;; Use basic view for html text only
 
-{:name    "LTL"
- :title   "Legal Technology Laboratory"
- :states  [{:ident   :organizers
-            :view    :basic
-            :name    "organizers"
-            :title   "Organizers"
-            :content "organizers.md"}
-           {:ident   :event
-            :view    :basic
-            :name    "event"
-            :title   "Event Information"
-            :content "event.md"}
-           {:ident   :projects
-            :view    :projects
-            :name    "projects"
-            :title   "Projects"
-            :content nil
-            :data    [{:title     "Startup Advisor Toolkit: Founders Term Sheet Generator"
-                      :focus     "Legal Document Automation"
-                      :status    "Extended Development"
-                      :summary   "This project will see the further development and integration of Tony Luppino’s Founders’ Terms Sheet generator tool for start-ups in initial formation/pre-venture capital stage and Larry Farmer’s & Jeff Ward’s LLC Formation tool. This will be established as a Start-up Advisor Toolkit to serve as both an efficient means for the delivery of high-quality legal services in company formation, and as the means for data collection across transactional law clinics. An interactive suite of tools originated by Tony Luppino and refined with student teams from the interdisciplinary and inter-institution Law, Technology & Public Policy course at UMKC (UMKC Course) to assist individuals who want to start a new business, and their legal counsel, with education on pivotal issues, information assembly and the generation of a “founders’ terms sheet” to facilitate a proper choice of entity for the business and appropriate terms and conditions of the business relationship between/among the company founders, and utilize the terms sheet to electronically produce a first draft of key company organizational documents."
-                      :partners  ["Tony Luppino, UMKC, Academic Lead"  "Michael Mills, Neota Logic, Technology Partner" "Faculty & Students, Missouri Western State University, UX Testing"]
-                      :goals     "Obtain feedback on current prototypes on the principal project components, suggestions on the integration of those component, and ideas on using the Start-Up Advisor Tool Kit to not only assist with the efficient delivery of start-up legal services"
-                      :outcomes  nil
-                      :resources []
-                      :videos    ["https://youtu.be/xRE-AfJHKsY"]}
-                     {:title     "Startup Advisor Toolkit: LLC Formation"
-                      :focus     "Legal Document Automation"
-                      :status    "Prototyping"
-                      :summary   "This project will see the further development and integration of Tony Luppino’s Founders’ Terms Sheet generator tool for start-ups in initial formation/pre-venture capital stage and Larry Farmer’s & Jeff Ward’s LLC Formation tool. This will be established as a Start-up Advisor Toolkit to serve as both an efficient means for the delivery of high-quality legal services in company formation, and as the means for data collection across transactional law clinics. Tool has been continually developed and enhanced over a 15-year period for application in the state of Utah. It includes checklists, templates, transmittal letters and other supporting documents to support a range of state-specific company formation requirements. More recently, work has been undertaken to adapt the LLC Formation Tool for deployment in North Carolina and the establishment of online access."
-                      :partners  ["Jeff Ward, Duke, Academic Lead" "Larry Farmer, BYU (Retired), Academic Lead" "Michael Mills, Neota Logic, Technology Partner" "Faculty & Students, Missouri Western State University, UX Testing"]
-                      :goals     "Obtain feedback on current prototypes on the principal project components, suggestions on the integration of those component, and ideas on using the Start-Up Advisor Tool Kit to not only assist with the efficient delivery of start-up legal services"
-                      :outcomes  nil
-                      :resources []
-                      :videos    []}
-                     {:title     "Establishing an Automated, Web-based Permit Processing System"
-                      :focus     "Legal document automation"
-                      :status    "Prototyping"
-                      :summary   "This project will focus on assisting Kansas City, Missouri with establishing a significantly more efficient process for granting permits to tradesmen (e.g. plumbers). By application of tools designed to demonstrate a decision tree approach to information acquisition, the project’s aim is to further develop a “customer assistance portal” that will streamline the process for granting multiple permits for a single activity and save significant amounts of time for the applicants and the administrative staff involved in granting permit applications.\nMore broadly the tools of this nature being built through the UMKC Course relating to specific permits are serving as possible templates for more comprehensive streamlining of permitting, licensing and other regulatory processes within municipal government."
-                      :partners  ["Chris Kopecky, Academic Lead" "Tony Luppino, UMKC, Academic Lead" "Michael Robak, UMKC, Academic Lead" "Code for KC (Code for America Brigade)" "Kansas City, MO Government"]
-                      :goals     nil
-                      :outcomes  nil
-                      :resources []
-                      :videos    ["https://youtu.be/Ug301GcvFd4"]}
-                     {:title     "Parcel Assessment Tool for Abandoned Properties"
-                      :focus     "Data Analytics & Decision Policy support"
-                      :status    "Prototyping"
-                      :summary   "This project concerns the development of a web application designed with a mobile first philosophy, making real estate decision support easily developers to any other person or party interested in researching information about parcels in a city as well as determining the development capacity of such parcels. The application will display building envelopes, legal descriptions, PINs, owner information, school district, etc. and then convert that data to information regarding alternative development and land use scenarios.\nThis Parcel Assessment Tool (P.A.T.) will serve as the front end to the Abandoned Property Resource Center project. Vacant, abandoned and blighted properties are a significant challenge for any municipality. This project concerns the development of a website to serve two to working on this problem within Kansas City, Missouri and 2) create an educational portal that will assist the person or entity interested in developing such properties through the steps necessary to move from identification of properties to acquisition and ownership."
-                      :partners  ["Michael Robak, Academic Lead" "James DeLisle, UMKC School of Law & Bloch School of Management, Academic Lead" "Open Counter, Possible Technology Partner" "Faculty, UMKC, Strategic Partner" "Faculty & Students, Missouri Western State University, UX Testing" "Kansas City, MO Government"]
-                      :goals     nil
-                      :outcomes  nil
-                      :resources []
-                      :videos    ["https://youtu.be/hwEM_vEK9n0"]}
-                     {:title     "FCC and Agency Transparency"
-                      :focus     "Data Analytics & Decision Policy support"
-                      :status    "Development"
-                      :summary   "Agency disclosure and transparency allow citizens and government actors to monitor administrative decisions and, in theory, further a more democratically responsive government. Agencies typically allow the public to inspect records. Yet, simply providing masses of data, made difficult to access due to poor indexing and classification—and minimal search power, does not create transparency.\nElectronic discovery platforms offer the possibility of shedding light into impenetrable piles of government data. To test this possibility, we examine the Federal Communications Commission (FCC). It places its document on an online database, the Electronic Comment Filing System (ECFS). We obtained a complete download of ECFS (1992 to 2008). The dataset is large, consisting of nearly 2 million documents, spanning over 12 thousand FCC proceedings, and hundreds of thousands of comments, ex parte notices, and other submissions.\nFCC orders use a different numbering system (and are placed in a different database) than the system that ECFS employs. Therefore, organizing dockets with orders—the first step to seeing how public input affects agency action, is a significant data challenge. Using the kCura Relativity platform, we have begun the process of organizing dockets and associating them with FCC orders or other agency action. We further plan to organize ex parte documents to develop social network data. This data should provide unique insights into the parties, law firms, and individuals driving national communications policy."
-                      :partners  ["Adam Candeub, MSU, Academic Lead" "MSU & QML, Project Team" "Relativity Platform, Technology Partner"]
-                      :goals     "Present the project – progress to date and objectives going forward; build involvement from other institutions, QMUL in London and maybe also Dan Katz."
-                      :outcomes  nil
-                      :resources []
-                      :videos    []}
-                     {:title     "Establishing a Legal Health-Check Application"
-                      :focus     "Legal Document Automation & Data Analytics & Decision Policy support"
-                      :status    "Ideation"
-                      :summary   "This project will seek to establish a legal health checkup for consumers. An expert system will be built to ask consumers basic questions about their legal needs (e.g. Since the last checkup, has a family member been born or died?  ...  A yes answer would then provide the person w/ basic info on relevant areas of law that they might need help in, like revising their estate plans or insurance policies).  On the front end it's a nice consumer service; on the back end, there'd be a great opportunity to capture info for study about what unmet legal needs exist."
-                      :partners ["Gabriel Teninbaum, Suffolk, Academic Lead" "Suffolk University"]
-                      :goals     nil
-                      :outcomes  nil
-                      :resources []
-                      :videos    []}
-                     {:title     "Exploring New Applications for AI-based Technology in Law"
-                      :focus     "Semantic systems"
-                      :status    "Ideation"
-                      :summary   "This project will focus on identifying new application areas for the RAVN suite of AI-based technologies. Importantly, this project will help to develop and refine a ‘GLTL approach’ to:\n- Understanding the capabilities/functionalities of a suite of legal technologies;\n- Reviewing existing application areas;\n- Identifying new application areas;\n- Establishing an assessment framework to prioritise the most promising application areas;\n- Developing prototype activities for prioritised new applications areas;"
-                      :partners  ["John Cummins, QMUL, Academic Lead," "Prof Ian Walden, QMUL, Academic Lead" "Peter Wallqqvist, CEO, RAVN, Technology Partner" "Students & Faculty, QMUL, Project Team" "Students & Faculty, University of Amsterdam, Project Team"]
-                      :goals     nil
-                      :outcomes  nil
-                      :resources ["http://www.ravn.co.uk"]
-                      :videos    []}
-                     {:title     "Creation and Automation of Global Standards"
-                      :focus     "Semantic Systems"
-                      :status    "Ideation"
-                      :summary   "This project will focus on 3D Printing Global Code of Conduct (as emblematic of international collaboration). It will draw upon semantic systems and deep learning for the creation and automation of Global Standards, Principles, MoUs, Codes of Conduct) (e.g., Creative Commons, W3C, GSM MoU, IP MoU, eMagnaCarta, others?)\n  The University of Amsterdam and Brooklyn Law School students have been building a global Code of Conduct for Digital Manufacturing (aka, 3D printing) and a crowd-sourced global wiki of the various nation-specific laws governing the emerging industry."
-                      :partners  ["Prof. Jonathan Askin, Brooklyn Law School, Academic Lead" "Peter Wallqvist, CEO, RAVN, Technology Partner" "University of Amsterdam"]
-                      :goals     "Refine the proposed project definition; build collaborations with other technology partners that may help to enrich the project."
-                      :outcomes  nil
-                      :resources []
-                      :videos    []}
-                     {:title     "Moving from Dumb to Smart Contracts"
-                      :focus     "Smart Contracts"
-                      :status    "Ideation"
-                      :summary   "This project will focus on the conversion of ‘dumb’ contracts to smart contracts. It may also consider the emergence of wholly new applications for the use of a smart contracts (and where there was no previous use of ‘dumb’ contracts).\nA key project activity will be establishing frameworks that capture the information from ‘dumb’ contracts for smart contract conversion. This will include the definition and population of logical decision structures.\nThe technology partner for this project will be Stashcrypto, a Texas-based start-up with a strong focus in the virtual currency transaction space and that has recently developed new applications to specifically target the smart contracts space."
-                      :partners  ["Prof Oliver Goodenough, Vermont Law School, Academic Lead" "Prof. Ian Walden, QMUL, Academic Lead" "Chris Odon & Cliff Baltzley, Stashcrypto, Technology Partner" "Selacchi Law Firm, Possible Technology Partner"]
-                      :goals     "Refine the proposed project definition and identify some strong candidates for potential application areas; recruit US-based university partners; build collaborations with other technology partners."
-                      :outcomes  nil
-                      :resources []
-                      :videos    []}
-                     {:title     "Developing an Expressive Legal Specification Language"
-                      :focus     "Smart Contracts"
-                      :status    "Ideation"
-                      :summary   "While there have been several projects to create a computer programming approach to representing legal statements such as statutes, regulations, contracts and other instruments, none have so far caught on widely in practical use.  The time is right to make a concerted effort to develop an expressive Legal Specification Language, that will have the capacity both to represent the computational structure of legal specification and to allow the execution of the workflow imbedded in that structure.\nThis language should also have an accessible and well-designed user interface.  The initiative involves:\n\n- a process of specking out the needs of legal expression;\n- a survey of existing projects and approaches;\n- building on 1 and 2, the creation of the Legal Specification Language;\n- the creation of the user interface;\n- the creation of a platform on which 3 and 4 can operate; and\n- the dissemination of the language to commercial, academic, governmental, and NGO users.\nThe initiative can move in a phased process, although overlapping some of the functions will help in the overall integration of the design."
-                      :partners  ["Prof Oliver Goodenough, Vermont Law School, Academic Lead"]
-                      :goals     "Refine the proposed project definition; build collaborations with other technology partners that may help to enrich the project."
-                      :outcomes  nil
-                      :resources []
-                      :videos    ["https://youtu.be/sjGI_ikJke0"]}
-                     {:title     "Automated Credit Union for Digital Assets"
-                      :partners  ["MIT"]
-                      :resources ["http://law.mit.edu/automated-credit-union"]}
-                   #_{:title     "Blockcorp"
-                      :partners  ["MIT"]
-                      :resources []}
-                   #_{:title     "City Scope & Urban Law Visualizer"
-                      :partners  ["MIT"]
-                      :resources []}
-                   #_{:title     "Enigma"
-                      :partners  []
-                      :resources []
-                      :videos    ["https://youtu.be/0W4Q7ey1E84"]}
-                   #_{:title     "Eximchain"
-                      :partners  ["Harvard Innovation Lab"]
-                      :resources ["http://eximchain.com/" "https://i-lab.harvard.edu/meet/venture-team/eximchain/"]}
-                   #_{:title     "Extended Cognition & (Constitutional and Common Law) Privacy"
-                      :partners  ["MIT"]
-                      :resources ["https://github.com/HumanDynamics/law.MIT.edu/wiki/The-Future-of-Extended-Cognition-and-Law"]}
-                   #_{:title     "GCorp - New Corporate Structures for the Digital World"
-                      :partners  ["Brooklyn Law"]
-                      :resources []}
-                   #_{:title     "Open Notice"
-                      :partners  ["MIT"]
-                      :resources []}
-                   #_{:title     "Open Project Gallery: Registry + Directory Service"
-                      :partners  ["MIT"]
-                      :resources []}
-                   #_{:title     "Automated Revenge Porn, Expungement & FOIL"
-                      :partners  ["Brooklyn Law"]
-                      :resources []}
-                   #_{:title     "Smart Cities: Sensors, Privacy Laws, & Citizen Perspectives"
-                      :partners  ["UMKC"]
-                      :resources []}
-                   #_{:title     "Vetting Regulations - Regulatory Agency Research Database for Entrepreneurs"
-                      :partners  ["Brooklyn Law"]
-                      :resources []}]}
-           {:ident   :photos
-            :view    :photos
-            :name    "photos"
-            :title   "Photos"
-            :states [{:ident :photo
-                      :view  :photo
-                      :name  "photo"
-                      :title "Photo"}]
-            :content nil
-            :data    [{:title "Image Caption"
-                       :thumb "/resources/thumb-1.jpg"
-                       :image "/resources/image-1.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-2.jpg"
-                       :image "/resources/image-2.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-3.jpg"
-                       :image "/resources/image-3.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-4.jpg"
-                       :image "/resources/image-4.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-5.jpg"
-                       :image "/resources/image-5.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-6.jpg"
-                       :image "/resources/image-6.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-7.jpg"
-                       :image "/resources/image-7.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-8.jpg"
-                       :image "/resources/image-8.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-9.jpg"
-                       :image "/resources/image-9.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-10.jpg"
-                       :image "/resources/image-10.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-11.jpg"
-                       :image "/resources/image-11.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-12.jpg"
-                       :image "/resources/image-12.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-13.jpg"
-                       :image "/resources/image-13.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-14.jpg"
-                       :image "/resources/image-14.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-15.jpg"
-                       :image "/resources/image-15.jpg"}
-                      {:title  "Image Caption"
-                       :thumb "/resources/thumb-16.jpg"
-                       :image "/resources/image-16.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-17.jpg"
-                       :image "/resources/image-17.jpg"}
-                      {:title "Image Caption"
-                       :thumb "/resources/thumb-18.jpg"
-                       :image "/resources/image-18.jpg"}]}
-           {:ident   :schedule
-            :view    :events
-            :name    "schedule"
-            :title   "Schedule"
-            :content nil
-            :data    [{:start-time  "May 5, 2016 8:15"
-                       :stop-time   "May 5, 2016 8:45"
-                       :title       "Coffee and Continental Breakfast"
-                       :speakers    ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
-                      {:start-time  "May 5, 2016 8:45"
-                       :stop-time   "May 5, 2016 9:10"
-                       :title       "Brooklyn Law School Project"
-                       :speakers    ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
-                      {:start-time  "May 5, 2016 9:10"
-                       :stop-time   "May 5, 2016 9:20"
-                       :title       "The big picture on innovation in legal education, law tech in public policy and access to justice"
-                       :speakers    ["Ellen Suni"]
-                       :description "10 minutes 'Big Picture' on innovation in legal education, law tech in public policy and access to justice"}
-                      {:start-time  "May 5, 2016 9:20"
-                       :stop-time   "May 5, 2016 9:30"
-                       :title       "Genesis and current posture of GLTL"
-                       :speakers    ["Evan Absher" "Tony Luppino"]
-                       :description "10 minutes on the genesis and current posture of GLTL"}
-                      {:start-time  "May 5, 2016 09:00"
-                       :stop-time   "May 5, 2016 11:30"
-                       :title       "GLTL Overview and Introduction to Projects"
-                       :track       1
-                       :speakers    ["John Cummings"]
-                       :description "The event will have four thematic tracks to help organize and structure activities:\n1 Legal document automation (and regulatory processes, with the emphasis on document/permit creation);\n 2 Data analytics (with the emphasis on context free scenarios);\n3 Semantic systems and deep learning (and where there is strong context dependency);\n4 Smart transactions (with the emphasis on 'smart contracts').\n* The introductions to projects within each track are to be very short (i.e., 3-minute introductions) – more detailed presentations will be done for substantially all of these projects in the working (project development) sessions."}
-                      {:start-time  "May 5, 2016 11:00"
-                       :stop-time   "May 5, 2016 12:30"
-                       :title       "Legal Document Automation"
-                       :track       2
-                       :speakers    ["Tony Luppino" "Larry Farmer"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
-                      {:start-time  "May 5, 2016 11:00"
-                       :stop-time   "May 5, 2016 12:30"
-                       :title       "Data Analytics"
-                       :track       3
-                       :speakers    ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
-                      {:start-time  "May 5, 2016 11:00"
-                       :stop-time   "May 5, 2016 12:30"
-                       :title       "Data Analytics"
-                       :track       3
-                       :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
-                       :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}]}
+{:name   "LTL"
+ :title  "Legal Technology Laboratory"
+ :states {:organizers {:view    :basic
+                       :name    "organizers"
+                       :title   "Organizers"
+                       :menu    0
+                       :content "organizers.md"}}
+          :projects   {:view    :projects
+                       :menu    1
+                       :name    "projects"
+                       :title   "Projects"
+                       :content nil
+                       :data    [{:title     "Startup Advisor Toolkit: Founders Term Sheet Generator"
+                                 :focus     "Legal Document Automation"
+                                 :status    "Extended Development"
+                                 :summary   "This project will see the further development and integration of Tony Luppino’s Founders’ Terms Sheet generator tool for start-ups in initial formation/pre-venture capital stage and Larry Farmer’s & Jeff Ward’s LLC Formation tool. This will be established as a Start-up Advisor Toolkit to serve as both an efficient means for the delivery of high-quality legal services in company formation, and as the means for data collection across transactional law clinics. An interactive suite of tools originated by Tony Luppino and refined with student teams from the interdisciplinary and inter-institution Law, Technology & Public Policy course at UMKC (UMKC Course) to assist individuals who want to start a new business, and their legal counsel, with education on pivotal issues, information assembly and the generation of a “founders’ terms sheet” to facilitate a proper choice of entity for the business and appropriate terms and conditions of the business relationship between/among the company founders, and utilize the terms sheet to electronically produce a first draft of key company organizational documents."
+                                 :partners  ["Tony Luppino, UMKC, Academic Lead"  "Michael Mills, Neota Logic, Technology Partner" "Faculty & Students, Missouri Western State University, UX Testing"]
+                                 :goals     "Obtain feedback on current prototypes on the principal project components, suggestions on the integration of those component, and ideas on using the Start-Up Advisor Tool Kit to not only assist with the efficient delivery of start-up legal services"
+                                 :outcomes  nil
+                                 :resources []
+                                 :videos    ["https://youtu.be/xRE-AfJHKsY"]}
+                                {:title     "Startup Advisor Toolkit: LLC Formation"
+                                 :focus     "Legal Document Automation"
+                                 :status    "Prototyping"
+                                 :summary   "This project will see the further development and integration of Tony Luppino’s Founders’ Terms Sheet generator tool for start-ups in initial formation/pre-venture capital stage and Larry Farmer’s & Jeff Ward’s LLC Formation tool. This will be established as a Start-up Advisor Toolkit to serve as both an efficient means for the delivery of high-quality legal services in company formation, and as the means for data collection across transactional law clinics. Tool has been continually developed and enhanced over a 15-year period for application in the state of Utah. It includes checklists, templates, transmittal letters and other supporting documents to support a range of state-specific company formation requirements. More recently, work has been undertaken to adapt the LLC Formation Tool for deployment in North Carolina and the establishment of online access."
+                                 :partners  ["Jeff Ward, Duke, Academic Lead" "Larry Farmer, BYU (Retired), Academic Lead" "Michael Mills, Neota Logic, Technology Partner" "Faculty & Students, Missouri Western State University, UX Testing"]
+                                 :goals     "Obtain feedback on current prototypes on the principal project components, suggestions on the integration of those component, and ideas on using the Start-Up Advisor Tool Kit to not only assist with the efficient delivery of start-up legal services"
+                                 :outcomes  nil
+                                 :resources []
+                                 :videos    []}
+                                {:title     "Establishing an Automated, Web-based Permit Processing System"
+                                 :focus     "Legal document automation"
+                                 :status    "Prototyping"
+                                 :summary   "This project will focus on assisting Kansas City, Missouri with establishing a significantly more efficient process for granting permits to tradesmen (e.g. plumbers). By application of tools designed to demonstrate a decision tree approach to information acquisition, the project’s aim is to further develop a “customer assistance portal” that will streamline the process for granting multiple permits for a single activity and save significant amounts of time for the applicants and the administrative staff involved in granting permit applications.\nMore broadly the tools of this nature being built through the UMKC Course relating to specific permits are serving as possible templates for more comprehensive streamlining of permitting, licensing and other regulatory processes within municipal government."
+                                 :partners  ["Chris Kopecky, Academic Lead" "Tony Luppino, UMKC, Academic Lead" "Michael Robak, UMKC, Academic Lead" "Code for KC (Code for America Brigade)" "Kansas City, MO Government"]
+                                 :goals     nil
+                                 :outcomes  nil
+                                 :resources []
+                                 :videos    ["https://youtu.be/Ug301GcvFd4"]}
+                                {:title     "Parcel Assessment Tool for Abandoned Properties"
+                                 :focus     "Data Analytics & Decision Policy support"
+                                 :status    "Prototyping"
+                                 :summary   "This project concerns the development of a web application designed with a mobile first philosophy, making real estate decision support easily developers to any other person or party interested in researching information about parcels in a city as well as determining the development capacity of such parcels. The application will display building envelopes, legal descriptions, PINs, owner information, school district, etc. and then convert that data to information regarding alternative development and land use scenarios.\nThis Parcel Assessment Tool (P.A.T.) will serve as the front end to the Abandoned Property Resource Center project. Vacant, abandoned and blighted properties are a significant challenge for any municipality. This project concerns the development of a website to serve two to working on this problem within Kansas City, Missouri and 2) create an educational portal that will assist the person or entity interested in developing such properties through the steps necessary to move from identification of properties to acquisition and ownership."
+                                 :partners  ["Michael Robak, Academic Lead" "James DeLisle, UMKC School of Law & Bloch School of Management, Academic Lead" "Open Counter, Possible Technology Partner" "Faculty, UMKC, Strategic Partner" "Faculty & Students, Missouri Western State University, UX Testing" "Kansas City, MO Government"]
+                                 :goals     nil
+                                 :outcomes  nil
+                                 :resources []
+                                 :videos    ["https://youtu.be/hwEM_vEK9n0"]}
+                                {:title     "FCC and Agency Transparency"
+                                 :focus     "Data Analytics & Decision Policy support"
+                                 :status    "Development"
+                                 :summary   "Agency disclosure and transparency allow citizens and government actors to monitor administrative decisions and, in theory, further a more democratically responsive government. Agencies typically allow the public to inspect records. Yet, simply providing masses of data, made difficult to access due to poor indexing and classification—and minimal search power, does not create transparency.\nElectronic discovery platforms offer the possibility of shedding light into impenetrable piles of government data. To test this possibility, we examine the Federal Communications Commission (FCC). It places its document on an online database, the Electronic Comment Filing System (ECFS). We obtained a complete download of ECFS (1992 to 2008). The dataset is large, consisting of nearly 2 million documents, spanning over 12 thousand FCC proceedings, and hundreds of thousands of comments, ex parte notices, and other submissions.\nFCC orders use a different numbering system (and are placed in a different database) than the system that ECFS employs. Therefore, organizing dockets with orders—the first step to seeing how public input affects agency action, is a significant data challenge. Using the kCura Relativity platform, we have begun the process of organizing dockets and associating them with FCC orders or other agency action. We further plan to organize ex parte documents to develop social network data. This data should provide unique insights into the parties, law firms, and individuals driving national communications policy."
+                                 :partners  ["Adam Candeub, MSU, Academic Lead" "MSU & QML, Project Team" "Relativity Platform, Technology Partner"]
+                                 :goals     "Present the project – progress to date and objectives going forward; build involvement from other institutions, QMUL in London and maybe also Dan Katz."
+                                 :outcomes  nil
+                                 :resources []
+                                 :videos    []}
+                                {:title     "Establishing a Legal Health-Check Application"
+                                 :focus     "Legal Document Automation & Data Analytics & Decision Policy support"
+                                 :status    "Ideation"
+                                 :summary   "This project will seek to establish a legal health checkup for consumers. An expert system will be built to ask consumers basic questions about their legal needs (e.g. Since the last checkup, has a family member been born or died?  ...  A yes answer would then provide the person w/ basic info on relevant areas of law that they might need help in, like revising their estate plans or insurance policies).  On the front end it's a nice consumer service; on the back end, there'd be a great opportunity to capture info for study about what unmet legal needs exist."
+                                 :partners ["Gabriel Teninbaum, Suffolk, Academic Lead" "Suffolk University"]
+                                 :goals     nil
+                                 :outcomes  nil
+                                 :resources []
+                                 :videos    []}
+                                {:title     "Exploring New Applications for AI-based Technology in Law"
+                                 :focus     "Semantic systems"
+                                 :status    "Ideation"
+                                 :summary   "This project will focus on identifying new application areas for the RAVN suite of AI-based technologies. Importantly, this project will help to develop and refine a ‘GLTL approach’ to:\n- Understanding the capabilities/functionalities of a suite of legal technologies;\n- Reviewing existing application areas;\n- Identifying new application areas;\n- Establishing an assessment framework to prioritise the most promising application areas;\n- Developing prototype activities for prioritised new applications areas;"
+                                 :partners  ["John Cummins, QMUL, Academic Lead," "Prof Ian Walden, QMUL, Academic Lead" "Peter Wallqqvist, CEO, RAVN, Technology Partner" "Students & Faculty, QMUL, Project Team" "Students & Faculty, University of Amsterdam, Project Team"]
+                                 :goals     nil
+                                 :outcomes  nil
+                                 :resources ["http://www.ravn.co.uk"]
+                                 :videos    []}
+                                {:title     "Creation and Automation of Global Standards"
+                                 :focus     "Semantic Systems"
+                                 :status    "Ideation"
+                                 :summary   "This project will focus on 3D Printing Global Code of Conduct (as emblematic of international collaboration). It will draw upon semantic systems and deep learning for the creation and automation of Global Standards, Principles, MoUs, Codes of Conduct) (e.g., Creative Commons, W3C, GSM MoU, IP MoU, eMagnaCarta, others?)\n  The University of Amsterdam and Brooklyn Law School students have been building a global Code of Conduct for Digital Manufacturing (aka, 3D printing) and a crowd-sourced global wiki of the various nation-specific laws governing the emerging industry."
+                                 :partners  ["Prof. Jonathan Askin, Brooklyn Law School, Academic Lead" "Peter Wallqvist, CEO, RAVN, Technology Partner" "University of Amsterdam"]
+                                 :goals     "Refine the proposed project definition; build collaborations with other technology partners that may help to enrich the project."
+                                 :outcomes  nil
+                                 :resources []
+                                 :videos    []}
+                                {:title     "Moving from Dumb to Smart Contracts"
+                                 :focus     "Smart Contracts"
+                                 :status    "Ideation"
+                                 :summary   "This project will focus on the conversion of ‘dumb’ contracts to smart contracts. It may also consider the emergence of wholly new applications for the use of a smart contracts (and where there was no previous use of ‘dumb’ contracts).\nA key project activity will be establishing frameworks that capture the information from ‘dumb’ contracts for smart contract conversion. This will include the definition and population of logical decision structures.\nThe technology partner for this project will be Stashcrypto, a Texas-based start-up with a strong focus in the virtual currency transaction space and that has recently developed new applications to specifically target the smart contracts space."
+                                 :partners  ["Prof Oliver Goodenough, Vermont Law School, Academic Lead" "Prof. Ian Walden, QMUL, Academic Lead" "Chris Odon & Cliff Baltzley, Stashcrypto, Technology Partner" "Selacchi Law Firm, Possible Technology Partner"]
+                                 :goals     "Refine the proposed project definition and identify some strong candidates for potential application areas; recruit US-based university partners; build collaborations with other technology partners."
+                                 :outcomes  nil
+                                 :resources []
+                                 :videos    []}
+                                {:title     "Developing an Expressive Legal Specification Language"
+                                 :focus     "Smart Contracts"
+                                 :status    "Ideation"
+                                 :summary   "While there have been several projects to create a computer programming approach to representing legal statements such as statutes, regulations, contracts and other instruments, none have so far caught on widely in practical use.  The time is right to make a concerted effort to develop an expressive Legal Specification Language, that will have the capacity both to represent the computational structure of legal specification and to allow the execution of the workflow imbedded in that structure.\nThis language should also have an accessible and well-designed user interface.  The initiative involves:\n\n- a process of specking out the needs of legal expression;\n- a survey of existing projects and approaches;\n- building on 1 and 2, the creation of the Legal Specification Language;\n- the creation of the user interface;\n- the creation of a platform on which 3 and 4 can operate; and\n- the dissemination of the language to commercial, academic, governmental, and NGO users.\nThe initiative can move in a phased process, although overlapping some of the functions will help in the overall integration of the design."
+                                 :partners  ["Prof Oliver Goodenough, Vermont Law School, Academic Lead"]
+                                 :goals     "Refine the proposed project definition; build collaborations with other technology partners that may help to enrich the project."
+                                 :outcomes  nil
+                                 :resources []
+                                 :videos    ["https://youtu.be/sjGI_ikJke0"]}
+                                {:title     "Automated Credit Union for Digital Assets"
+                                 :partners  ["MIT"]
+                                 :resources ["http://law.mit.edu/automated-credit-union"]}
+                              #_{:title     "Blockcorp"
+                                 :partners  ["MIT"]
+                                 :resources []}
+                              #_{:title     "City Scope & Urban Law Visualizer"
+                                 :partners  ["MIT"]
+                                 :resources []}
+                              #_{:title     "Enigma"
+                                 :partners  []
+                                 :resources []
+                                 :videos    ["https://youtu.be/0W4Q7ey1E84"]}
+                              #_{:title     "Eximchain"
+                                 :partners  ["Harvard Innovation Lab"]
+                                 :resources ["http://eximchain.com/" "https://i-lab.harvard.edu/meet/venture-team/eximchain/"]}
+                              #_{:title     "Extended Cognition & (Constitutional and Common Law) Privacy"
+                                 :partners  ["MIT"]
+                                 :resources ["https://github.com/HumanDynamics/law.MIT.edu/wiki/The-Future-of-Extended-Cognition-and-Law"]}
+                              #_{:title     "GCorp - New Corporate Structures for the Digital World"
+                                 :partners  ["Brooklyn Law"]
+                                 :resources []}
+                              #_{:title     "Open Notice"
+                                 :partners  ["MIT"]
+                                 :resources []}
+                              #_{:title     "Open Project Gallery: Registry + Directory Service"
+                                 :partners  ["MIT"]
+                                 :resources []}
+                              #_{:title     "Automated Revenge Porn, Expungement & FOIL"
+                                 :partners  ["Brooklyn Law"]
+                                 :resources []}
+                              #_{:title     "Smart Cities: Sensors, Privacy Laws, & Citizen Perspectives"
+                                 :partners  ["UMKC"]
+                                 :resources []}
+                              #_{:title     "Vetting Regulations - Regulatory Agency Research Database for Entrepreneurs"
+                                 :partners  ["Brooklyn Law"]
+                                 :resources []}]}
+          :photos {:view    :photos
+                   :menu    2
+                   :name    "photos"
+                   :title   "Photos"
+                   :data    [{:title "Image Caption"
+                              :thumb "/resources/thumb-1.jpg"
+                              :image "/resources/image-1.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-2.jpg"
+                              :image "/resources/image-2.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-3.jpg"
+                              :image "/resources/image-3.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-4.jpg"
+                              :image "/resources/image-4.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-5.jpg"
+                              :image "/resources/image-5.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-6.jpg"
+                              :image "/resources/image-6.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-7.jpg"
+                              :image "/resources/image-7.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-8.jpg"
+                              :image "/resources/image-8.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-9.jpg"
+                              :image "/resources/image-9.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-10.jpg"
+                              :image "/resources/image-10.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-11.jpg"
+                              :image "/resources/image-11.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-12.jpg"
+                              :image "/resources/image-12.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-13.jpg"
+                              :image "/resources/image-13.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-14.jpg"
+                              :image "/resources/image-14.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-15.jpg"
+                              :image "/resources/image-15.jpg"}
+                             {:title  "Image Caption"
+                              :thumb "/resources/thumb-16.jpg"
+                              :image "/resources/image-16.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-17.jpg"
+                              :image "/resources/image-17.jpg"}
+                             {:title "Image Caption"
+                              :thumb "/resources/thumb-18.jpg"
+                              :image "/resources/image-18.jpg"}]
+                   :states   {:photo {:view  :photo
+                                      :name  "photo"
+                                      :title "Photo"}}}
+          :schedule {:view    :events
+                     :menu    3
+                     :name    "schedule"
+                     :title   "Schedule"
+                     :content nil
+                     :data    [{:start-time  "May 5, 2016 8:15"
+                                :stop-time   "May 5, 2016 8:45"
+                                :title       "Coffee and Continental Breakfast"
+                                :speakers    ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                                :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                               {:start-time  "May 5, 2016 8:45"
+                                :stop-time   "May 5, 2016 9:10"
+                                :title       "Brooklyn Law School Project"
+                                :speakers    ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                                :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                               {:start-time  "May 5, 2016 9:10"
+                                :stop-time   "May 5, 2016 9:20"
+                                :title       "The big picture on innovation in legal education, law tech in public policy and access to justice"
+                                :speakers    ["Ellen Suni"]
+                                :description "10 minutes 'Big Picture' on innovation in legal education, law tech in public policy and access to justice"}
+                               {:start-time  "May 5, 2016 9:20"
+                                :stop-time   "May 5, 2016 9:30"
+                                :title       "Genesis and current posture of GLTL"
+                                :speakers    ["Evan Absher" "Tony Luppino"]
+                                :description "10 minutes on the genesis and current posture of GLTL"}
+                               {:start-time  "May 5, 2016 09:00"
+                                :stop-time   "May 5, 2016 11:30"
+                                :title       "GLTL Overview and Introduction to Projects"
+                                :track       1
+                                :speakers    ["John Cummings"]
+                                :description "The event will have four thematic tracks to help organize and structure activities:\n1 Legal document automation (and regulatory processes, with the emphasis on document/permit creation);\n 2 Data analytics (with the emphasis on context free scenarios);\n3 Semantic systems and deep learning (and where there is strong context dependency);\n4 Smart transactions (with the emphasis on 'smart contracts').\n* The introductions to projects within each track are to be very short (i.e., 3-minute introductions) – more detailed presentations will be done for substantially all of these projects in the working (project development) sessions."}
+                               {:start-time  "May 5, 2016 11:00"
+                                :stop-time   "May 5, 2016 12:30"
+                                :title       "Legal Document Automation"
+                                :track       2
+                                :speakers    ["Tony Luppino" "Larry Farmer"]
+                                :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                               {:start-time  "May 5, 2016 11:00"
+                                :stop-time   "May 5, 2016 12:30"
+                                :title       "Data Analytics"
+                                :track       3
+                                :speakers    ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                                :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}
+                               {:start-time  "May 5, 2016 11:00"
+                                :stop-time   "May 5, 2016 12:30"
+                                :title       "Data Analytics"
+                                :track       3
+                                :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
+                                :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}]}
