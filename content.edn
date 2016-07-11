@@ -8,13 +8,13 @@
 {:name   "LTL"
  :title  "Legal Technology Laboratory"
  :states {:organizers {:view    :basic
-                       :name    "organizers"
+                       :name    "Organizers"
                        :title   "Organizers"
                        :menu    0
-                       :content "organizers.md"}}
+                       :content "organizers.md"}
           :projects   {:view    :projects
                        :menu    1
-                       :name    "projects"
+                       :name    "Projects"
                        :title   "Projects"
                        :content nil
                        :data    [{:title     "Startup Advisor Toolkit: Founders Term Sheet Generator"
@@ -146,7 +146,7 @@
                                  :resources []}]}
           :photos {:view    :photos
                    :menu    2
-                   :name    "photos"
+                   :name    "Photos"
                    :title   "Photos"
                    :data    [{:title "Image Caption"
                               :thumb "/resources/thumb-1.jpg"
@@ -207,7 +207,7 @@
                                       :title "Photo"}}}
           :schedule {:view    :events
                      :menu    3
-                     :name    "schedule"
+                     :name    "Schedule"
                      :title   "Schedule"
                      :content nil
                      :data    [{:start-time  "May 5, 2016 8:15"
@@ -253,4 +253,4 @@
                                 :title       "Data Analytics"
                                 :track       3
                                 :speakers   ["Sandy Pentland" "Dazza Greenwood" "Jonathan Askin"]
-                                :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}}
+                                :description "25 minutes on setting the context and a 'big picture' view on law, technology, big data, social physics"}]}}}
