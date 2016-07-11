@@ -149,6 +149,65 @@
                    #_{:title     "Vetting Regulations - Regulatory Agency Research Database for Entrepreneurs"
                       :partners  ["Brooklyn Law"]
                       :resources []}]}
+           {:ident   :photo
+            :view    :photo
+            :name    "photo"
+            :title   "Photo"
+            :content nil
+            :data    [{:title "Image Caption"
+                       :thumb "/resources/image-thumb-1.JPG"
+                       :image "/resources/image-1.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-2.JPG"
+                       :image "/resources/image-2.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-3.JPG"
+                       :image "/resources/image-3.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-4.JPG"
+                       :image "/resources/image-4.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-5.JPG"
+                       :image "/resources/image-5.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-6.JPG"
+                       :image "/resources/image-6.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resource/image-thumb-7.JPG"
+                       :image "/resources/image-7.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-8.JPG"
+                       :image "/resources/image-8.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-9.JPG"
+                       :image "/resources/image-9.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-10.JPG"
+                       :image "/resources/image-10.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-11.JPG"
+                       :image "/resources/image-11.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-12.JPG"
+                       :image "/resources/image-12.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-13.JPG"
+                       :image "/resources/image-13.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resource/image-thumb-14.JPG"
+                       :image "/resources/image-14.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-15.JPG"
+                       :image "/resources/image-15.JPG"}
+                      {:title  "Image Caption"
+                       :thumb "/resources/image-thumb-16.JPG"
+                       :image "/resources/image-16.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-17.JPG"
+                       :image "/resources/image-17.JPG"}
+                      {:title "Image Caption"
+                       :thumb "/resources/image-thumb-18.JPG"
+                       :image "/resources/image-18.JPG"}]}
            {:ident   :photos
             :view    :photos
             :name    "photos"
