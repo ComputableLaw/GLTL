@@ -11,12 +11,12 @@
                        :index   0
                        :name    "Conference"
                        :title   "Conference"
-                       :content "/content/conference.md"}
+                       :content #url"/content/conference.md"}
           :organizers {:view    :basic
                        :index   1
                        :name    "Organizers"
                        :title   "Organizers"
-                       :content "/content/organizers.md"}
+                       :content #url"/content/organizers.md"}
           :projects   {:view    :projects
                        :index   2
                        :name    "Projects"
